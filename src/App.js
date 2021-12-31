@@ -1,12 +1,14 @@
 import React from 'react'
-
-
+import { Routes, Route, useNavigate } from 'react-router-dom'
+import Login from './components/Login'
+import Home from './container/Home'
 
 function App() {
     return (
-        <div className='text-3xl font-bold '>
-            <h1>Picspot</h1>
-        </div>
+        <Routes>
+            <Route path="/login" element={<Login />} />
+            <Route path="/*" element={<Home />} />
+        </Routes>
     )
 }
 
