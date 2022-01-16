@@ -9,7 +9,6 @@ import { client,urlFor } from '../client'
 import { fetchUser } from '../utils/fetchUser';
 
 
-
 const Pin = ({ pin }) => {
     
     
