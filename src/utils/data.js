@@ -65,13 +65,13 @@ export const pinDetailQuery = (pinId) => {
     destination,
     postedBy->{
       _id,
-      userName,
+      username,
       image
     },
    save[]{
       postedBy->{
         _id,
-        userName,
+        username,
         image
       },
     },
@@ -80,7 +80,7 @@ export const pinDetailQuery = (pinId) => {
       _key,
       postedBy->{
         _id,
-        userName,
+        username,
         image
       },
     }
