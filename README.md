@@ -1,4 +1,6 @@
-# Picspot Social Media App inspired from Pinterest
+# Picspot Social Media App 
+
+##### Picspot is a Fully Functional Social Media App Built with React, Tailwind CSS & Sanity Backend.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
