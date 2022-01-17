@@ -107,7 +107,7 @@ const PinDetail = ({ user }) => {
                         alt="user-profile"
                     />
                     <div className="flex flex-col">
-                        <p className="font-bold">{item.postedBy?.userName}</p>
+                        <p className="font-bold">{item.postedBy?.username}</p>
                         <p>{item.comment}</p>
                     </div>
                     </div>
