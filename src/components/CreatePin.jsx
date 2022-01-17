@@ -159,7 +159,7 @@ const CreatePin = ({ user }) => {
             />
             <input
                 type="url"
-                vlaue={destination}
+                value={destination}
                 onChange={(e) => setDestination(e.target.value)}
                 placeholder="Add a destination link"
                 className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2"
@@ -186,7 +186,7 @@ const CreatePin = ({ user }) => {
                 <button
                     type="button"
                     onClick={savePin}
-                    className="bg-red-500 text-white font-bold p-2 rounded-full w-28 outline-none"
+                    className="bg-blue-500 hover:bg-blue-400 text-white font-bold p-2 rounded-full w-28 outline-none"
                 >
                     Save Pin
                 </button>
