@@ -1,6 +1,9 @@
-# Picspot Social Media App 
+# Picspot
 
 ##### Picspot is a Fully Functional Social Media App Built with React, Tailwind CSS & Sanity Backend.
+
+<img src="/banner.png">
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
